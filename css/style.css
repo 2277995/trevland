@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Navbar Hero section*/
+.trevland {
+    background: url(../images/Rectangle\ 31.jpg);
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+}
+
+.trevland-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.trevland-navbar h4 {
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.trevland-a a {
+    text-decoration: none;
+    padding: 0 20px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.trevland-a a:hover {
+    border-bottom: 1px solid #C9453B;
+    color: #C9453B;
+}
+
+.trevland-borders a {
+    text-decoration: none;
+    background: #C9453B;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.trevland-borders a:hover {
+    border: 1px solid #C9453B;
+    background: none;
+    border-radius: 5px;
+}
+
+.trevland-head-p {
+    padding-top: 110px;
+}
+
+.trevland-head-p h2 {
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+
+.trevland-head-p p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    padding: 10px 0;
+}
+
+@media (max-width: 767px) {
+
+    .trevland-navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .trevland-head-p {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .trevland-head-p h2 {
+        font-size: 30px;
+    }
+
+    .trevland-borders {
+        padding-top: 15px;
+    }
+}
+/*End of Navbar Hero section*/
+/*Popular Lacation*/
+.popular-lacation-text {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.popular-lacation-text h3 {
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    color: #000000;
+}
+
+.popular-lacation-text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.popular-lacation-img-text {
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.popular-lacation-img-text:hover {
+    box-shadow: 0px 0px 10px 10px #2401017d;
+}
+
+.popular-lacation-img-text img {
+    object-fit: cover;
+    border-radius: 6px 6px 0 0;
+}
+
+.popular-lacation-img-text h4 {
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    padding-top: 25px;
+}
+
+.popular-lacation-img-text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    opacity: 0.6;
+    padding: 15px 0;
+}
+/*End of Popular Lacation*/
+/*Special Offers*/
+.special-offers-img-location {
+    display: flex;
+    justify-content: space-around;
+}
+
+.offers-img-location {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+}
+
+.offers-img-location img {
+    border-radius: 6px 6px 0 0;
+}
+
+.offers-img-location:hover {
+    box-shadow: 0px 0px 8px 8px #2401017d;
+}
+
+.special-offers-img-location h4 {
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.special-offers-location {
+    padding: 0 15px;
+}
+
+.special-location {
+    display: flex;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    padding: 6px 0;
+}
+
+.location img, .location2 img {
+    padding-right: 7px;
+}
+
+.location2 {
+    display: flex;
+    align-items: center;
+    padding: 6px 15px;
+}
+
+
+.special-location h6{
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 0rem;
+}
+
+.special-offers-location h6 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.6;
+    padding: 2px 0;
+}
+
+.special-offers-location h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+}
+
+.special-offers-location h5 span {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.javascript {
+    padding: 18px 0;
+}
+
+.tac {
+    text-align: center;
+}
+
+.tac img {
+    padding: 0 10px;
+}
+
+@media (max-width: 767px) {
+    .special-offers-img-location {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .offers-img-location img {
+        width: 100%;
+        height: auto;
+    }
+
+    .location img, .location2 img {
+        padding-right: 7px;
+        height: 18px;
+        width: auto;
+    }
+
+    .tac img {
+        display: none;
+        padding: 0 10px;
+    }
+
+    .special-offers-location {
+        text-align: center;
+    }
+    
+}
+/*End of Special Offers*/
+/*Form Blok & News*/
+.form-blok-max:hover {
+    box-shadow: 0px 0px 8px 8px #2401017d;
+    border-radius: 10px;
+}
+
+.form-blok h4 {
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #000000;
+    padding: 20px 0;
+} 
+
+.form-blok p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.form-blok a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+}
+
+.form-blok a:hover {
+    border-bottom: 1px solid #C9453B;
+    color: #C9453B;
+}
+
+.form-blok-mini-img-text img {
+    border-radius: 10px 0 0 10px;
+}
+
+.form-blok-mini-img-text {
+    display: flex;
+    align-items: center;
+}
+
+.form-blok-mini-img-text:hover {
+    box-shadow: 0px 0px 8px 8px #2401017d;
+    border-radius: 10px;
+}
+
+.form-blok-mini-img-text:nth-child(2) {
+    margin: 20px 0;
+}
+
+.form-blok-text {
+    padding-left: 20px;
+}
+
+
+.form-blok-text h5 {
+    font-family: 'Gelasio';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #000000;
+}
+
+
+.form-blok-text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.form-blok-text a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.form-blok-text a:hover{
+    border-bottom: 1px solid #C9453B;
+    color: #C9453B;
+}
+
+@media (max-width: 767px) {
+    .form-blok img {
+        width: 100%;
+        height: auto;
+    }
+
+    .form-blok-mini-img-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-blok-mini-img-text img {
+        width: 100%;
+        height: auto;
+    }
+}
+/*End of Form Blok & News*/
+/*Footer*/
+.footer {
+    background: rgba(38, 148, 153, 0.04);
+    margin: 30px 0;
+}
+
+.footer-perent-div {
+    padding: 20px 0;
+}
+
+.footer-head h4 {
+    font-family: 'Ribeye';
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    padding: 20px 0;
+}
+
+.footer-head h6 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.footer-icon a {
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+.footer-headTwo {
+    padding: 20px 0;
+}
+
+.footer-headTwo h6 {
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.08em;
+    color: #000000;
+    padding: 3px 0;
+}
+
+.footer-heads {
+    padding: 25px 0;
+}
+
+.footer-heads input {
+    opacity: 0.3;
+    border: 1px solid rgba(0, 0, 0, 0.484);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.footer-heads input:hover {
+    box-shadow: 0px 0px 10px 10px rgba(29, 1, 1, 0.358);
+}
+
+.footer-heads h4 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    padding-bottom: 15px;
+}
+
+.footer-heads button {
+    border: 1px solid #C9453B;
+    background: #C9453B;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+@media (max-width: 767px) {
+    .footer-perent-div {
+        text-align: center;
+    }
+}
+/*End of Footer*/
